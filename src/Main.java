@@ -5,24 +5,24 @@ public class Main {
 
         int numeroIf = 2;
         if (numeroIf < 0) {
-            System.out.println("Es numero negativo");
+            System.out.println("La variable numeroIf " + numeroIf + " es numero negativo");
         } else if (numeroIf == 0) {
-            System.out.println("El numero es 0");
+            System.out.println("La variable numeroIf " + numeroIf + " es 0");
         } else {
-            System.out.println("El numero es positivo");
+            System.out.println("La variable numeroIf " + numeroIf + " es posiotivo");
         }
 
         int numeroWhile = 1;
         while (numeroWhile < 3) {
-            System.out.println(numeroWhile);
+            System.out.println("La variable numeroWhile ahora vale " + numeroWhile);
             numeroWhile++;
         }
 
-        int numeroDoWhile = 1;
+        int numeroDoWhile = 3;
         do {
-            System.out.println(numeroDoWhile);
+            System.out.println("La variable numeroDoWhile ahora vale " + numeroDoWhile);
             numeroDoWhile++;
-        }while (numeroWhile < 2);
+        }while (numeroWhile < 3);
 
 
         for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
@@ -32,16 +32,16 @@ public class Main {
         var estacion = "verano";
         switch (estacion) {
             case "verano":
-            System.out.println("Es verano");
+            System.out.println("Estamos en verano");
             break;
             case "invierno":
-            System.out.println("Es invierno");
+            System.out.println("Estamos en invierno");
             break;
             case "otoño":
-            System.out.println("Es otoño");
+            System.out.println("Estamos en otoño");
             break;
             case "primavera":
-            System.out.println("Es primavera");
+            System.out.println("Estamos en primavera");
             break;
             default:
                 System.out.println("No es una estacion");
