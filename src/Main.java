@@ -24,9 +24,9 @@ public class Main {
             numeroDoWhile++;
         }while (numeroWhile < 2);
 
-        int numeroFor = 0;
-        for (; numeroFor <= 3; numeroFor++) {
-            System.out.println(numeroFor);
+
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+            System.out.println("La variable numeroFor ahora vale " + numeroFor);
         }
 
         var estacion = "verano";
